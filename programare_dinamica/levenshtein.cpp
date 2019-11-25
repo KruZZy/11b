@@ -26,9 +26,9 @@ int cmp(int m, int n) {
 
 int main()
 {
-    in >> s >> d;
-    m = strlen(s);
-    n = strlen(d);
+    in >> s+1 >> d+1;
+    m = strlen(s+1);
+    n = strlen(d+1);
 
     cout << cmp(m, n);
     return 0;
