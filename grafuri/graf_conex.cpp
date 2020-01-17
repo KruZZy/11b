@@ -48,6 +48,7 @@ int main()
             lst = i;
         }
 
-    cout << "Am adaugat " << add << " muchii";
+    if(add == 0) cout << "Graful este conex.";
+    else cout << "Am adaugat " << add << " muchii.";
     return 0;
 }
